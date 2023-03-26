@@ -13,9 +13,9 @@ public class MotoTest {
         private Moto moto;
 
         @Before
-        public void setup(){ moto=new Moto(100);}
+        public void setup(){ moto=new Moto(80);}
         @Test
-        public void testCantKmMoto (){assertEquals(100,moto.getKmMoto());}
+        public void testCantKmMoto (){assertEquals(80,moto.getKmMoto());}
 
     }
 
